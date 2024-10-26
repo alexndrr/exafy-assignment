@@ -1,8 +1,10 @@
 This is my take on the solution for the assignment.
 
 Links:
-Swagger - http://localhost:8080/swagger-ui/index.html <br>
-H2 Console - http://localhost:8080/h2-console
+<ul>
+<li>Swagger - http://localhost:8080/swagger-ui/index.html
+<li>H2 Console - http://localhost:8080/h2-console</li>
+</ul>
 
 <ul>
 <li>Since this is a project intended only to be run locally all of the passwords were left eexposed in the application.properties file for easier navigation. </li>
