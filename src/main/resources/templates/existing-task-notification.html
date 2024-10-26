@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p>Hi,</p>
+<p>
+<p>This is an automated email notifying you that you have active task that needs addressing:</p>
+<strong>Task title</strong>: <span th:text="${title}">Task Title Placeholder</span> </br>
+<strong>Task description</strong>: <span th:text="${description}">Task Description Placeholder</span> </br>
+<strong>Task is due by</strong>: <span th:text="${dueDate}">Task Description Placeholder</span> </br>
+</p>
+</body>
+</html>
